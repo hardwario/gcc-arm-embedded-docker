@@ -1,6 +1,32 @@
 # Overview
 This Docker contains tools for cross-compilation to ARM as well as the gcc toolchain and make.
 
+## Example
+
+### Gitlab CI
+`.gitlab-ci.yml`
+```yml
+image: "hardwario/gcc-arm-embedded:8-2018-q4-major"
+
+build:
+  stage: build
+
+  script:
+    - make
+
+  artifacts:
+    paths:
+      - "*.bin"
+    expire_in: 30 days
+```
+
+### Local
+```
+git clone --recursive https://github.com/bigclownlabs/bcf-radio-climate-monitor.git
+cd bcf-radio-climate-monitor
+docker run --rm -it -v `pwd`:/builds -u `id -u`:`id -g` hardwario/gcc-arm-embedded:latest make
+```
+
 ## Tag
 
 ### 8-2018-q4-major
