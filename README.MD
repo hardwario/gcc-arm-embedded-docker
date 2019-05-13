@@ -34,6 +34,11 @@ docker run --rm -it -v `pwd`:/builds -u `id -u`:`id -g` hardwario/gcc-arm-embedd
 * Linux 64-bit Tarball
 * MD5: f55f90d483ddb3bcf4dae5882c2094cd
 
+### 7-2018-q2-update
+`gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2`
+* Linux 64-bit Tarball
+* MD5: 299ebd3f1c2c90930d28ab82e5d8d6c0 
+
 ### 6-2017-q2-update 
 `gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2`
 * Linux 64-bit Tarball
