@@ -12,6 +12,6 @@ RUN mkdir /builds && \
     apt-get autoremove -y && \
     apt-get clean
 
-ENV PATH=$PATH:/opt/gcc-arm-none-eabi-6-2017-q2-update/bin
+ENV PATH=/opt/gcc-arm-none-eabi-6-2017-q2-update/bin:$PATH
 
 WORKDIR /builds
