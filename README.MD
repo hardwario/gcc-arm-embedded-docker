@@ -54,6 +54,7 @@ docker run --rm -it -v `pwd`:/builds -u `id -u`:`id -g` hardwario/gcc-arm-embedd
 * cmake 
 * zip 
 * wget 
+* curl
 * git 
 * doxygen 
 * graphviz
