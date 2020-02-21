@@ -58,3 +58,5 @@ docker run --rm -it -v `pwd`:/builds -u `id -u`:`id -g` hardwario/gcc-arm-embedd
 * git 
 * doxygen 
 * graphviz
+* python3
+* python3-pip
