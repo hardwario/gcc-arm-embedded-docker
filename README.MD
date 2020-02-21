@@ -29,6 +29,11 @@ docker run --rm -it -v `pwd`:/builds -u `id -u`:`id -g` hardwario/gcc-arm-embedd
 
 ## Tag
 
+### 8-2019-q3-update (July 10, 2019)
+`gcc-arm-none-eabi-8-2019-q3-update-linux.tar.bz2`
+* Linux 64-bit Tarball
+* MD5: 6341f11972dac8de185646d0fbd73bfc
+
 ### 8-2018-q4-major
 `gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2`
 * Linux 64-bit Tarball
